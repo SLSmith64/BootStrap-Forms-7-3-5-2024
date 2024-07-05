@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-dark text-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Bootstrap Forms</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,6 +40,9 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/invoice.html">Invoice</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/(CF)Invoice.html">(CF)Invoice</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +55,9 @@
                 <div class="col-6"><img src="/img/IdeaFoundryLogo.svg" alt="Idea Foundry logo"><br><br>
                 </div>
                 <div class="col-6 text-end">
-                    <p><h1><b>Invoice</b></h1></p>
+                    <p>
+                    <h1><b>Invoice</b></h1>
+                    </p>
                 </div>
                 <hr>
             </div>
@@ -82,7 +87,7 @@
             <div>
                 <table class=" table table-striped table-bordered text-dark">
                     <thead class="table table-primary">
-                        <th colspan="2">Service</th>                        
+                        <th colspan="2">Service</th>
                         <th>Description</th>
                         <th>Rate</th>
                         <th>QTY</th>
@@ -113,9 +118,14 @@
                     </tbody>
                     <tfoot>
                         <tr class="text-end">
-                            <td><b>Sub Total:</b> $2550.00</td>
-                            <td><b>Tax:</b> $0.00</td>
-                            <td><b>Total:</b> $2550.00</td>
+                            <td colspan="5"><b>Sub Total:</b> $2550.00
+                            <td>
+                        </tr>
+                        <tr class="text-end">
+                            <td colspan="5"><b>Tax:</b> $0.00</td>
+                        </tr>
+                        <tr class="text-end">
+                            <td colspan="5"><b>Total:</b> $2550.00</td>
                         </tr>
                     </tfoot>
                 </table>
