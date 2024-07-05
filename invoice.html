@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Forms: Contact Info</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link href="/css/Template.css" rel="stylesheet" />
+    <link href="/css/Invoice.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bootstrap Forms</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/addressBook.html">Address Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact Form</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/invoice.html">Invoice</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Pop Quiz 7-5-2024</h1>
+        <div class="bg-light p-5">
+            <div class="row text-dark">
+                <div class="col-6"><img src="/img/IdeaFoundryLogo.svg" alt="Idea Foundry logo"><br><br>
+                </div>
+                <div class="col-6 text-end">
+                    <p><h1><b>Invoice</b></h1></p>
+                </div>
+                <hr>
+            </div>
+            <div class="row text-dark">
+                <div class="col-6">
+                    <p><b>Date:</b> 7/5/2024</p>
+                </div>
+                <div class="col-6 text-end">
+                    <p><b>Invoice Num:</b> 19005</p>
+                </div>
+                <hr>
+            </div>
+            <div class="row text-dark">
+                <div class="col-6">
+                    <address>
+                        <p class="text-start"><b>Invoiced To:</b><br>Mark Davis<br>3333 Al Davis Way <br>Las Vegas, NV
+                            89118</p>
+                    </address>
+                </div>
+                <div class="col-6 text-end">
+                    <address>
+                        <p class="text-right"><b>Pay To:</b><br>Idea Foundry, Inc.<br>2705 N.Enterprise
+                            St.<br>Kernersville, NC 27284</p>
+                    </address>
+                </div>
+            </div>
+            <div>
+                <table class=" table table-striped table-bordered text-dark">
+                    <thead class="table table-primary">
+                        <th colspan="2">Service</th>                        
+                        <th>Description</th>
+                        <th>Rate</th>
+                        <th>QTY</th>
+                        <th>Amount</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">Design</td>
+                            <td>Website Design</td>
+                            <td>$60.00</td>
+                            <td>10</td>
+                            <td>$600.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Development</td>
+                            <td>Website Development</td>
+                            <td>$150.00</td>
+                            <td>10</td>
+                            <td>$1500.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Deployment</td>
+                            <td>Deployment and Hosting</td>
+                            <td>$450.00</td>
+                            <td>1</td>
+                            <td>$450.00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="text-end">
+                            <td><b>Sub Total:</b> $2550.00</td>
+                            <td><b>Tax:</b> $0.00</td>
+                            <td><b>Total:</b> $2550.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-dark text-center">
+                <h7><b>Note:</b> This is a computer generated receipt and does not require physical signature.</h7>
+                <br>
+                <button onclick="window.print()">Print</button>
+                <button onclick="window.print()">Download</button>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-light py-3">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col text-center ps-2">Built by: Shawn &copy; 2024
+            </div>
+            <div class="col text-center">Bootstrap Essential Forms</div>
+            <div class="col text-center text-md-center pe-2">
+                <p><a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                        href="#">send email</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
